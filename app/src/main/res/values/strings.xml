@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">Capmon</string>
+    <string name="appName">Capmon</string>
+    <string name="loginTitle">Trainer Login</string>
+    <string name="registerTitle">Trainer Registration</string>
+    <string name="capmonListTitle">Capmons anzeigen</string>
+    <string name="capmonCreateTitle">Capmons erstellen</string>
+    <string name="sendCapmonTitle">Trainer Login</string>
+    <string name="firstnameTitle">Vorname</string>
+    <string name="lastnameTitle">Nachname</string>
+    <string name="confirmPasswordTitle">Passwort bestätigen</string>
+    <string name="emailTitle">E-Mail</string>
+    <string name="passwordTitle">Passwort</string>
+    <string name="nameTitle">Name</string>
+    <string name="AttackTitle">Attacke</string>
+    <string name="TypeTitle">Typ</string>
+    <string name="RegionTitle">Region</string>
+    <string name="YourCapmonTitle">Dein Capmon</string>
+    <string name="ReceiverTitle">Empfänger</string>
+    <string name="LoginMessage">Welcome back, adventurer.</string>
+    <string name="NoAccountMessage">No account? Register</string>
+    <string name="HereMessage">here!</string>
+    <string name="RegisterMessage">Here starts your adventure.</string>
+    <string name="HaveLoginMessage">You have an account? Login</string>
+
 </resources>

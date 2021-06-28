@@ -6,13 +6,137 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/signup_1_app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/signup_1_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:title="@string/loginTitle"
+            app:titleMarginStart="43dp"
+            app:titleTextColor="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="71dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/LoginMessage"
+        android:textColor="@color/red_100"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_1_app_bar_layout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="76dp"
+        android:textColorHint="@color/black_38"
+        app:boxBackgroundColor="@color/white"
+        app:counterEnabled="true"
+        app:counterMaxLength="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_1_app_bar_layout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstnameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/emailTitle"
+            android:inputType="textEmailSubject" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="76dp"
+        android:textColorHint="@color/black_38"
+        app:boxBackgroundColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_1_app_bar_layout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwortField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/passwordTitle"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/NoAccountMessage"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_1_app_bar_layout" />
+
+    <TextView
+        android:id="@+id/registerSwitchText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/HereMessage"
+        android:textColor="@color/red_100"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_1_app_bar_layout" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/red_100"
+        android:clickable="true"
+        android:contentDescription="@string/HereMessage"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/outline_done_black_24dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="494dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginBottom="56dp"
+        android:contentDescription="@string/HereMessage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/pokeball_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
