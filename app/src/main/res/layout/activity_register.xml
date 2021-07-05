@@ -61,7 +61,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/signup_1_app_bar_layout">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/firstnameField"
+                    android:id="@+id/emailField"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/firstnameTitle"
@@ -167,7 +167,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/signup_1_app_bar_layout" />
 
             <TextView
-                android:id="@+id/registerSwitchText2"
+                android:id="@+id/loginSwitchText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="290dp"
@@ -180,7 +180,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/signup_1_app_bar_layout" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/loginButton2"
+                android:id="@+id/registerButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="77dp"

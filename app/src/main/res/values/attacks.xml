@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="attacks">
+        <item>Feuersturm</item>
+        <item>Wasserpumpe</item>
+        <item>Eisstrahl</item>
+        <item>Rasierblatt</item>
+    </string-array>
+</resources>

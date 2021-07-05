@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="capmons">
+        <item>Watercapper</item>
+        <item>Firecapper</item>
+        <item>Leafcapper</item>
+        <item>Icecapper</item>
+    </string-array>
+</resources>

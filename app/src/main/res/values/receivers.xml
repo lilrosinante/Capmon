@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="receivers">
+        <item>Olly Wolly</item>
+        <item>Peter Parker</item>
+        <item>Soma Milk</item>
+        <item>Youni Milk</item>
+    </string-array>
+</resources>

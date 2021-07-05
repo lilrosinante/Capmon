@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Capmon">
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".SendCapmon"></activity>
+        <activity android:name=".CreateCapmonActivity" />
+        <activity android:name=".CapmonListActivity"/>
+        <activity android:name=".MainActivity"><intent-filter>
+        <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".RegisterActivity">
-            <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
         </activity>
+        <activity android:name=".RegisterActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
